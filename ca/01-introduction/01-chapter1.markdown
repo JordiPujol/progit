@@ -10,14 +10,13 @@ Si ets un disenyador gràfic o de pagines web i vols guardar cada escuna de les 
 
 ### Sitemas de control de versions locals ###
 
-Many people’s version-control method of choice is to copy files into another directory (perhaps a time-stamped directory, if they’re clever). This approach is very common because it is so simple, but it is also incredibly error prone. It is easy to forget which directory you’re in and accidentally write to the wrong file or copy over files you don’t mean to.
+Molta gent tria fer el control de versions copiant el fixer en un altre directori (potser amb data de modificació, si son espavilats). aquest solució es molt comu perque simple, però és propensa a dur a errors. Facilment et pot oblidar de en quin directori hi ets i badant escrius al archiu equivocat o sobreescrius arxius que no volies.
 
-To deal with this issue, programmers long ago developed local VCSs that had a simple database that kept all the changes to files under revision control (see Figure 1-1).
+Ja fa temps que els programadors van desarrollar les VCSs locals que tenien una base de dades sencilla que permetia controlar els canvis als fixers (veure la Figura 1-1).
 
 Insert 18333fig0101.png 
 Figure 1-1. Local version control diagram.
-
-One of the more popular VCS tools was a system called rcs, which is still distributed with many computers today. Even the popular Mac OS X operating system includes the  rcs command when you install the Developer Tools. This tool basically works by keeping patch sets (that is, the differences between files) from one change to another in a special format on disk; it can then re-create what any file looked like at any point in time by adding up all the patches.
+una de les aplicacions VCS mes populars era un sistema anomenat rcs, que encara es distribueix amb molts ordinadors avui en dia. fins i tot el popular sistema operatiu MAC OS X inclou la intrucció rcs quant instal·las les eines de desarrollar.. This tool basically works by keeping patch sets (that is, the differences between files) from one change to another in a special format on disk; it can then re-create what any file looked like at any point in time by adding up all the patches.
 
 ### Centralized Version Control Systems ###
 
